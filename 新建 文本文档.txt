@@ -1,0 +1,3 @@
+ g++ -Wall -std=c++11 -I/usr/local/include/mediapipe -I/usr/include/opencv -o face_mesh_example face_mesh_example.cpp -lmediapipe -lopencv_core -lopencv_imgproc
+
+$./face_mesh_example
